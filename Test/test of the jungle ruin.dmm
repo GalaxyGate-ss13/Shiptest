@@ -1,0 +1,1409 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/structure/closet/crate/medical,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"ar" = (
+/turf/closed/wall/mineral/cult,
+/area/ruin/jungle/paradise/med)
+"ax" = (
+/turf/open/water/jungle,
+/area/space)
+"aJ" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"aP" = (
+/turf/closed/wall/mineral/cult,
+/area/ruin/jungle/cavecrew/dormitories)
+"aR" = (
+/obj/machinery/light/broken/directional/west,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"bm" = (
+/turf/open/floor/plating/conf_haz,
+/area/ruin/jungle/interceptor/forehall)
+"bV" = (
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/plating/conf_haz,
+/area/ruin/jungle/interceptor/forehall)
+"cw" = (
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/cavecrew)
+"eg" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"ej" = (
+/obj/structure/flora/junglebush/c,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"ex" = (
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/jungle/cavecrew)
+"eE" = (
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/interceptor/forehall)
+"eX" = (
+/obj/effect/gibspawner/human,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"gJ" = (
+/obj/structure/door_assembly/door_assembly_hatch,
+/obj/machinery/door/firedoor,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"hn" = (
+/turf/closed/wall/mineral/cult,
+/area/ruin/jungle/interceptor/forehall)
+"ho" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/paradise/med)
+"hI" = (
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/interceptor/forehall)
+"ju" = (
+/obj/machinery/autolathe,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"jQ" = (
+/obj/machinery/mecha_part_fabricator,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"ke" = (
+/obj/effect/decal/cleanable/robot_debris/gib,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"kP" = (
+/obj/structure/fence,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/space)
+"lp" = (
+/obj/effect/temp_visual/cult/rune_spawn/rune1,
+/turf/open/floor/plating/conf_haz,
+/area/ruin/jungle/interceptor/forehall)
+"mo" = (
+/obj/machinery/telecomms/server/presets/syndicate,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/engineering)
+"mI" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"nh" = (
+/mob/living/simple_animal/hostile/jungle/seedling,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"np" = (
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"nD" = (
+/obj/structure/mecha_wreckage/gygax/dark,
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"nF" = (
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/engineering)
+"nG" = (
+/obj/machinery/conveyor,
+/obj/item/folder/documents/syndicate/red,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"oj" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"oS" = (
+/obj/effect/gibspawner/human/bodypartless,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"pt" = (
+/obj/effect/spawner/bunk_bed,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/dormitories)
+"pw" = (
+/obj/structure/closet/syndicate/resources,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/dormitories)
+"pT" = (
+/obj/structure/flora/rock/jungle,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"pX" = (
+/obj/machinery/light/broken,
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/paradise/med)
+"qL" = (
+/obj/structure/fence,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"qN" = (
+/obj/machinery/computer/atmos_control/tank/toxin_tank/solgov,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/engineering)
+"rn" = (
+/obj/machinery/harvester,
+/turf/open/floor/plating/conf_haz,
+/area/ruin/jungle/paradise/med)
+"rq" = (
+/obj/structure/flora/tree/jungle/small,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"tk" = (
+/obj/structure/closet/secure_closet/medical1,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"tB" = (
+/obj/machinery/power/apc/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/paradise/med)
+"tP" = (
+/obj/structure/flora/junglebush/b,
+/obj/structure/flora/junglebush/b,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"tR" = (
+/obj/structure/fence,
+/obj/structure/fence,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"ud" = (
+/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/firedoor,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"uG" = (
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"uV" = (
+/obj/structure/flora/junglebush/b,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"vC" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/cavecrew)
+"wq" = (
+/obj/effect/temp_visual/cult/rune_spawn/rune1,
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/interceptor/forehall)
+"xu" = (
+/obj/structure/door_assembly/door_assembly_extmai,
+/obj/machinery/door/firedoor,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/dormitories)
+"yt" = (
+/obj/machinery/power/apc/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/cavecrew/dormitories)
+"yH" = (
+/obj/effect/gibspawner/human/bodypartless,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"yX" = (
+/obj/structure/filingcabinet/security,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/engineering)
+"zy" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/paradise/med)
+"zF" = (
+/obj/structure/fence,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"zO" = (
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/space)
+"Am" = (
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/paradise/med)
+"AH" = (
+/obj/effect/spawner/bunk_bed,
+/mob/living/simple_animal/hostile/faithless,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/dormitories)
+"Bc" = (
+/turf/open/floor/plating/conf_haz,
+/area/ruin/jungle/cavecrew/engineering)
+"Bf" = (
+/obj/structure/spawner/burrow/jungle_planet,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"BE" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"CG" = (
+/obj/structure/flora/junglebush/c,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"Dw" = (
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"DB" = (
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/cavecrew/engineering)
+"DX" = (
+/obj/machinery/medical_kiosk,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"Ee" = (
+/mob/living/simple_animal/hostile/faithless,
+/obj/machinery/light/broken/directional/west,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"Eo" = (
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/dormitories)
+"Ex" = (
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"Gb" = (
+/obj/structure/fence/cut/large,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"GA" = (
+/obj/machinery/airalarm/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/cavecrew/dormitories)
+"GZ" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/engineering)
+"Hr" = (
+/obj/structure/bed/roller,
+/obj/effect/mob_spawn/human/syndicatesoldier,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"HX" = (
+/obj/machinery/modular_computer/console/preset/research,
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/cavecrew)
+"It" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/cavecrew)
+"IS" = (
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/cavecrew/dormitories)
+"Js" = (
+/obj/machinery/airalarm/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/cavecrew)
+"JP" = (
+/obj/machinery/light/small/built/directional/north,
+/obj/item/clothing/suit/space/hardsuit/cult,
+/obj/item/clothing/head/helmet/space/hardsuit/cult,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/dormitories)
+"Kd" = (
+/obj/machinery/power/apc/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/cavecrew/engineering)
+"Kr" = (
+/obj/item/documents/syndicate/ngr,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"KX" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/interceptor/forehall)
+"Lq" = (
+/mob/living/simple_animal/turtle,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"LE" = (
+/turf/open/floor/plating/conf_haz,
+/area/ruin/jungle/paradise/med)
+"LI" = (
+/obj/structure/flora/tree/jungle,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"LR" = (
+/obj/structure/flora/junglebush/large,
+/obj/structure/flora/rock/jungle,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"LX" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"MH" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"MJ" = (
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/cavecrew)
+"MN" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/cavecrew/engineering)
+"Ns" = (
+/obj/structure/door_assembly/door_assembly_extmai,
+/obj/machinery/door/firedoor,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/engineering)
+"Oe" = (
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"Op" = (
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/cavecrew/engineering)
+"Ot" = (
+/turf/closed/wall/mineral/cult,
+/area/ruin/jungle/cavecrew)
+"OP" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/space)
+"Pd" = (
+/turf/closed/wall/mineral/cult,
+/area/ruin/jungle/cavecrew/engineering)
+"Qd" = (
+/obj/effect/temp_visual/cult/rune_spawn/rune3/center,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"Qh" = (
+/obj/machinery/computer/apc_control,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew/engineering)
+"Qv" = (
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/cavecrew/engineering)
+"Qz" = (
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"Rv" = (
+/obj/machinery/vending/cigarette/syndicate,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"Sy" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/open/floor/plating/conf_haz,
+/area/ruin/jungle/cavecrew/dormitories)
+"TF" = (
+/obj/machinery/conveyor,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"Ub" = (
+/obj/effect/mob_spawn/human/skeleton,
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"Un" = (
+/obj/structure/door_assembly/door_assembly_hatch,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/jungle/interceptor/forehall)
+"UN" = (
+/obj/effect/decal/cleanable/blood/gibs/torso,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"Vv" = (
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/paradise/med)
+"VW" = (
+/obj/structure/fence/door/opened,
+/turf/open/floor/plating/dirt/jungle/wasteland,
+/area/space)
+"Wf" = (
+/obj/item/storage/belt/utility/syndicate,
+/turf/open/floor/plating/rust/rockplanet,
+/area/ruin/jungle/cavecrew)
+"Wy" = (
+/obj/structure/closet/syndicate/personal,
+/turf/open/floor/plasteel/cult,
+/area/ruin/jungle/cavecrew/dormitories)
+"WV" = (
+/obj/machinery/vending/plasmaresearch,
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/cavecrew)
+"WW" = (
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/paradise/med)
+"Xp" = (
+/obj/structure/flora/junglebush/large,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"Yg" = (
+/turf/open/floor/suns/dark/plain,
+/area/ruin/jungle/interceptor/forehall)
+"YE" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/cavecrew/dormitories)
+"YO" = (
+/obj/structure/fence,
+/obj/structure/fence/cut/medium,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+"Zd" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/fence,
+/turf/open/floor/plating/grass/jungle,
+/area/space)
+
+(1,1,1) = {"
+uG
+uG
+uG
+uG
+rq
+qL
+qL
+qL
+qL
+qL
+tR
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+uG
+uG
+uG
+"}
+(2,1,1) = {"
+uG
+ej
+uG
+Xp
+uG
+qL
+uG
+uG
+uG
+Xp
+uG
+YE
+YE
+YE
+YE
+KX
+KX
+MN
+MN
+MN
+MN
+MN
+uG
+uG
+uG
+Xp
+qL
+uG
+uG
+LI
+"}
+(3,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+ej
+uG
+pT
+YE
+YE
+pt
+pt
+YE
+wq
+Yg
+MN
+qN
+nF
+DB
+MN
+MN
+uG
+uG
+uG
+qL
+pT
+uG
+uG
+"}
+(4,1,1) = {"
+uG
+Xp
+uG
+LI
+nh
+qL
+uG
+pT
+uG
+uG
+YE
+pw
+Sy
+Eo
+GA
+Yg
+eE
+MN
+nF
+nF
+Qv
+Qh
+MN
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(5,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+pT
+uG
+uG
+YE
+JP
+IS
+Eo
+xu
+Yg
+Yg
+Ns
+nF
+Bc
+GZ
+Op
+MN
+Xp
+Bf
+pT
+qL
+uG
+rq
+uG
+"}
+(6,1,1) = {"
+uG
+uG
+uG
+uG
+Xp
+qL
+uG
+uG
+uG
+ej
+YE
+Wy
+Eo
+Eo
+yt
+Yg
+Yg
+Pd
+yX
+nF
+nF
+nF
+Kd
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(7,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+tR
+uG
+uG
+Xp
+pT
+YE
+YE
+pt
+AH
+YE
+bV
+eE
+MN
+mo
+nF
+nF
+MN
+MN
+uG
+uG
+uG
+qL
+uG
+uG
+pT
+"}
+(8,1,1) = {"
+uG
+rq
+uG
+ej
+uG
+qL
+uG
+uG
+uG
+uG
+uG
+YE
+YE
+YE
+aP
+Yg
+Yg
+MN
+MN
+MN
+MN
+MN
+uG
+uG
+Xp
+uG
+qL
+uG
+uG
+pT
+"}
+(9,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+Xp
+hn
+Yg
+Yg
+ho
+uG
+pT
+uG
+uG
+uG
+uG
+pT
+pT
+qL
+uG
+uG
+uG
+"}
+(10,1,1) = {"
+uG
+uG
+uG
+MH
+uG
+qL
+uG
+uG
+uG
+uG
+uG
+KX
+hn
+KX
+KX
+Yg
+Yg
+ho
+ho
+ar
+ho
+ho
+uG
+Lq
+uG
+uG
+qL
+uG
+LR
+uG
+"}
+(11,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+Zd
+uG
+uG
+uG
+uG
+KX
+KX
+Rv
+Yg
+eX
+lp
+Yg
+ho
+Hr
+WW
+Vv
+ho
+ho
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(12,1,1) = {"
+CG
+zO
+uG
+Dw
+zO
+kP
+aJ
+zO
+uG
+uG
+KX
+oS
+Yg
+hI
+Yg
+eE
+Yg
+ho
+DX
+WW
+WW
+rn
+ar
+uG
+uG
+uG
+Gb
+uG
+uG
+uG
+"}
+(13,1,1) = {"
+zO
+uG
+Dw
+ax
+Dw
+VW
+eg
+ax
+uG
+uG
+Un
+Yg
+bm
+Qd
+Yg
+Yg
+Yg
+ud
+WW
+yH
+WW
+zy
+gJ
+uG
+uG
+uG
+Gb
+uG
+uG
+uG
+"}
+(14,1,1) = {"
+uG
+uG
+Dw
+OP
+Dw
+zF
+zO
+eg
+ax
+uG
+KX
+Yg
+Yg
+BE
+Yg
+Yg
+hI
+ho
+Am
+WW
+LE
+Vv
+pX
+uG
+uG
+Xp
+qL
+uG
+pT
+uG
+"}
+(15,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+uG
+KX
+KX
+eX
+Yg
+Ex
+bm
+Yg
+ho
+Qz
+ad
+tk
+tB
+ho
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(16,1,1) = {"
+uG
+uG
+uG
+uG
+rq
+qL
+uG
+uG
+uG
+uG
+uG
+KX
+KX
+KX
+KX
+UN
+Yg
+ho
+ho
+ho
+ar
+ho
+uG
+uG
+uG
+uG
+qL
+uG
+LI
+Xp
+"}
+(17,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+uG
+uG
+Xp
+uG
+uG
+KX
+Yg
+Yg
+ho
+uG
+Xp
+uG
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(18,1,1) = {"
+uG
+uG
+uG
+uG
+pT
+qL
+ej
+uG
+uG
+uG
+uG
+vC
+Ot
+vC
+vC
+np
+np
+Js
+vC
+vC
+vC
+vC
+uG
+uG
+Xp
+uG
+uG
+uG
+uG
+uG
+"}
+(19,1,1) = {"
+uG
+uG
+uG
+LI
+uG
+qL
+pT
+uG
+uG
+Xp
+vC
+vC
+cw
+Ee
+MJ
+Oe
+Oe
+Oe
+Oe
+aR
+Wf
+Ot
+Ot
+uG
+uG
+uG
+tR
+uG
+uG
+uG
+"}
+(20,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+uG
+vC
+WV
+Oe
+Oe
+jQ
+TF
+nG
+TF
+nD
+Oe
+Oe
+Oe
+Ot
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(21,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+ej
+uG
+uG
+vC
+MJ
+Oe
+Oe
+Oe
+Kr
+Oe
+Oe
+Oe
+Ub
+cw
+It
+vC
+uG
+uG
+uG
+YO
+uG
+pT
+uG
+"}
+(22,1,1) = {"
+ej
+pT
+uG
+tP
+uV
+qL
+uG
+uG
+uG
+pT
+Ot
+LX
+Oe
+Oe
+HX
+Ub
+Oe
+Oe
+Oe
+Oe
+MJ
+MJ
+vC
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(23,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+Xp
+uG
+uG
+vC
+vC
+ju
+Oe
+Oe
+Oe
+mI
+MJ
+ke
+cw
+MJ
+ex
+pT
+uG
+uG
+uG
+qL
+uG
+nh
+uG
+"}
+(24,1,1) = {"
+uG
+uG
+oj
+uG
+ej
+qL
+uG
+uG
+uG
+uG
+uG
+vC
+vC
+Ot
+vC
+vC
+vC
+vC
+Ot
+vC
+vC
+ex
+uG
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(25,1,1) = {"
+uG
+uG
+nh
+uG
+uG
+qL
+uG
+Bf
+uG
+uG
+ej
+uG
+Xp
+uG
+uG
+uG
+uG
+uG
+ej
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+qL
+uG
+uG
+uG
+"}
+(26,1,1) = {"
+uG
+uG
+uG
+uG
+ej
+qL
+uG
+uG
+Xp
+uG
+uG
+uG
+uG
+uG
+uG
+ej
+Xp
+uG
+uG
+pT
+uG
+Xp
+uG
+uG
+Xp
+uG
+qL
+uG
+uG
+uG
+"}
+(27,1,1) = {"
+uG
+uV
+uG
+Xp
+uG
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+tR
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+qL
+uG
+uG
+uG
+"}
+(28,1,1) = {"
+uG
+uG
+rq
+uG
+uG
+uG
+uG
+pT
+uG
+uG
+uG
+uG
+uG
+uG
+LI
+uG
+pT
+rq
+uG
+uG
+uG
+uG
+uG
+pT
+uG
+uG
+uG
+uG
+uG
+uG
+"}
+(29,1,1) = {"
+pT
+uG
+uG
+uG
+uG
+uG
+uG
+LI
+uG
+uG
+uG
+uG
+pT
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+Xp
+uG
+uG
+rq
+uG
+uG
+LR
+uG
+uG
+LI
+"}
+(30,1,1) = {"
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+Xp
+uG
+uG
+pT
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+"}
