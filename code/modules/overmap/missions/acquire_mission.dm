@@ -70,7 +70,7 @@
 */
 
 /datum/mission/acquire/true_love
-	name = "Diamond needed (urgent!!)"
+	name = "Требуется алмаз (срочно!!)"
 	weight = 3
 	value = 700
 	duration = 40 MINUTES
@@ -88,22 +88,22 @@
 	. = ..()
 
 /datum/mission/acquire/true_love/puce
-	name = "Puce crystal needed (urgent!!)"
+	name = "Нужен пурпурный кристалл (срочно!!)"
 	weight = 1
 	objective_type = /obj/item/reagent_containers/food/snacks/grown/ash_flora/puce
 
 /datum/mission/acquire/true_love/fireblossom
-	name = "Fireblossom needed (urgent!!)"
+	name = "Требуется Fireblossom (срочно!!)"
 	weight = 1
 	objective_type = /obj/item/reagent_containers/food/snacks/grown/ash_flora/fireblossom
 
 /datum/mission/acquire/true_love/icepepper
-	name = "Icepepper needed (urgent!!)"
+	name = "Требуется Icepepper (срочно!!)"
 	weight = 1
 	objective_type = /obj/item/reagent_containers/food/snacks/grown/icepepper
 
 /datum/mission/acquire/true_love/strange_crystal
-	name = "Strange crystal needed (urgent!!!)"
+	name = "Требуется Strange crystal (срочно!!!)"
 	value = 4000
 	weight = 1
 	objective_type = /obj/item/strange_crystal
@@ -166,16 +166,16 @@ Acquire: Anomaly
 		return 0
 
 /datum/mission/acquire/creature/legion
-	name = "Capture a legion"
-	desc = "I require a live legion for research purposes. Trap one within the given \
-			Lifeform Containment Unit and return it to me and you will be paid handsomely."
+	name = "Захватить легион"
+	desc = "Мне нужен живой легион для исследований. Поймайте одного из них в ловушку \
+			в спец. устройство для содержания живых форм и верните его мне. Вы получите хорошее вознаграждение."
 	value = 1300
 	objective_type = /mob/living/simple_animal/hostile/asteroid/hivelord/legion
 
 /datum/mission/acquire/creature/migo
-	name = "Capture a live mi-go"
-	desc = "I require a live mi-go for research purposes. Trap one within the given \
-			Lifeform Containment Unit and return it to me and you will be paid handsomely."
+	name = "Захват живого ми-го"
+	desc = "Мне нужен живой ми-го для исследований. Поймайте одного из них в ловушку \
+			в спец. устройство для содержания живых форм и верните его мне. Вы получите хорошее вознаграждение."
 	value = 1300
 	weight = 2
 	objective_type = /mob/living/simple_animal/hostile/netherworld/migo/asteroid
@@ -185,8 +185,9 @@ Acquire: Anomaly
 */
 
 /datum/mission/acquire/landmine
-	name = "Defuse landmines"
-	desc = "CLIP and Gezena have assigned us to offer a bounty to turn in disarmed ordnance for future ventures. We'll pay you well, but we're not responsible for any accidents."
+	name = "Обезвреживание наземных мин"
+	desc = "CLIP и Gezena поручили нам предложить вознаграждение за сдачу обезвреженных боеприпасов для будущих планов. \
+			Мы хорошо заплатим вам, но не будем отвечать за несчастные случаи."
 	weight = 6
 	value = 1500
 	duration = 80 MINUTES
@@ -196,8 +197,9 @@ Acquire: Anomaly
 	num_wanted = 2
 
 /datum/mission/acquire/bounty
-	name = "Hunt down Dogtags"
-	desc = "CLIP has posted several bounties for wanted members of both the Frontiersman and the Clique. Bring back their tags, we'll reward you well."
+	name = "Охота за Dogtags (жетонами)"
+	desc = "CLIP объявил в розыск несколько членов группировок the Frontiersman и the Clique. \
+			Принесите их именные жетоны, и мы хорошо вас вознаградим."
 	weight = 4
 	value = 4000
 	duration = 120 MINUTES
