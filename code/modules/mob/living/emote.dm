@@ -421,7 +421,7 @@
 /datum/emote/living/snore
 	key = "snore"
 	key_third_person = "snores"
-	message = "snores."
+	message = "храпит" //snores
 	message_mime = "sleeps soundly."
 	emote_type = EMOTE_AUDIBLE
 	stat_allowed = UNCONSCIOUS
