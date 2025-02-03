@@ -421,7 +421,7 @@
 /datum/emote/living/snore
 	key = "snore"
 	key_third_person = "snores"
-	message = "храпит" //snores
+	message = "храпит." //snores
 	message_mime = "sleeps soundly."
 	emote_type = EMOTE_AUDIBLE
 	stat_allowed = UNCONSCIOUS
@@ -451,23 +451,23 @@
 /datum/emote/living/stare
 	key = "stare"
 	key_third_person = "stares"
-	message = "stares."
-	message_param = "stares at %t."
+	message = "смотрит."
+	message_param = "смотрит на %t."
 
 /datum/emote/living/strech
 	key = "stretch"
 	key_third_person = "stretches"
-	message = "stretches their arms."
+	message = "потягивает свои руки."
 
 /datum/emote/living/sulk
 	key = "sulk"
 	key_third_person = "sulks"
-	message = "sulks down sadly."
+	message = "дуется."
 
 /datum/emote/living/surrender
 	key = "surrender"
 	key_third_person = "surrenders"
-	message = "puts their hands on their head and falls to the ground, they surrender!"
+	message = "кладет руки на голову и падает на землю, сдаётся!!"
 	emote_type = EMOTE_AUDIBLE
 
 /datum/emote/living/surrender/run_emote(mob/user, params, type_override, intentional)
@@ -480,7 +480,7 @@
 /datum/emote/living/sway
 	key = "sway"
 	key_third_person = "sways"
-	message = "sways around dizzily."
+	message = "крутит головой в бессознании."
 
 /datum/emote/living/sway/run_emote(mob/living/user, params, type_override, intentional)
 	. = ..()
@@ -495,7 +495,7 @@
 /datum/emote/living/tremble
 	key = "tremble"
 	key_third_person = "trembles"
-	message = "trembles in fear!"
+	message = "дрожит от страха!"
 
 #define TREMBLE_LOOP_DURATION (4.4 SECONDS)
 /datum/emote/living/tremble/run_emote(mob/living/user, params, type_override, intentional)
@@ -512,7 +512,7 @@
 /datum/emote/living/twitch
 	key = "twitch"
 	key_third_person = "twitches"
-	message = "twitches violently."
+	message = "сильно дёргается."
 
 /datum/emote/living/twitch/run_emote(mob/living/user, params, type_override, intentional)
 	. = ..()
@@ -526,7 +526,7 @@
 
 /datum/emote/living/twitch_s
 	key = "twitch_s"
-	message = "twitches."
+	message = "дёргается."
 
 /datum/emote/living/twitch_s/run_emote(mob/living/user, params, type_override, intentional)
 	. = ..()
@@ -541,29 +541,29 @@
 /datum/emote/living/wave
 	key = "wave"
 	key_third_person = "waves"
-	message = "waves."
+	message = "изображает волну руками."
 
 /datum/emote/living/whimper
 	key = "whimper"
 	key_third_person = "whimpers"
-	message = "whimpers."
+	message = "хнычет."
 	message_mime = "appears hurt."
 
 /datum/emote/living/wsmile
 	key = "wsmile"
 	key_third_person = "wsmiles"
-	message = "smiles weakly."
+	message = "слабо улыбнулся."
 
 /datum/emote/living/yawn
 	key = "yawn"
 	key_third_person = "yawns"
-	message = "yawns."
+	message = "зевает."
 	emote_type = EMOTE_AUDIBLE
 
 /datum/emote/living/gurgle
 	key = "gurgle"
 	key_third_person = "gurgles"
-	message = "makes an uncomfortable gurgle."
+	message = "издает неприятное бульканье."
 	emote_type = EMOTE_AUDIBLE
 
 /datum/emote/living/custom
