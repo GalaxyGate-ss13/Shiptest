@@ -292,55 +292,51 @@ GLOBAL_VAR(restart_counter)
 	if(LAZYACCESS(SSlag_switch.measures, DISABLE_NON_OBSJOBS))
 		features += "closed"
 
-	var/s = ""
+	var/s = "<center>"
 	var/hostedby
 	if(config)
 		var/server_name = CONFIG_GET(string/servername)
 		if (server_name)
-			s += "<b>[server_name]</b> &#8212; "
-		features += "[CONFIG_GET(flag/norespawn) ? "no " : ""]respawn"
+			s += "<b style=\"color:red\">[server_name]</b>"
 		hostedby = CONFIG_GET(string/hostedby)
 
 	var/discord_url
-	var/github_url
+	var/telegram_url
 	if(isnull(config))
-		discord_url = "https://shiptest.net/discord"
-		github_url = "https://github.com/shiptest-ss13/Shiptest"
+		discord_url = "https://galaxygate13.ru/discord"
+		telegram_url = "https://t.me/galaxygate13"
 	else
 		discord_url = CONFIG_GET(string/discordurl)
-		github_url = CONFIG_GET(string/githuburl)
+		telegram_url = CONFIG_GET(string/telegramurl)
 
-	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"[discord_url]\">" //Change this to wherever you want the hub to link to.
-	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "<a href=\"[discord_url]\">"
+	s += "DS"
 	s += "</a>"
-	s += ")"
-	s += " ("
-	s += "<a href=\"[github_url]\">"
-	s += "Github"
+	s += "|"
+	s += "<a href=\"[telegram_url]\">"
+	s += "TG"
 	s += "</a>"
 	s += ")"
 
 	var/players = GLOB.clients.len
 
-	var/popcaptext = ""
-	var/popcap = max(CONFIG_GET(number/extreme_popcap), CONFIG_GET(number/hard_popcap), CONFIG_GET(number/soft_popcap))
-	if (popcap)
-		popcaptext = "/[popcap]"
-
-	if (players > 1)
-		features += "[players][popcaptext] players"
-	else if (players > 0)
-		features += "[players][popcaptext] player"
-
-	game_state = (CONFIG_GET(number/extreme_popcap) && players >= CONFIG_GET(number/extreme_popcap)) //tells the hub if we are full
-
-	if (!host && hostedby)
-		features += "hosted by <b>[hostedby]</b>"
-
 	if (features)
-		s += ": [jointext(features, ", ")]"
+
+		s += "<br>"
+
+		features += "Event:[CONFIG_GET(flag/eventstatus) ? "<b>Yes</b>" : "<b>No</b>"]"
+		features += "Time:<b>[SSticker.round_start_timeofday ? ROUND_REALTIMEOFDAY_MINUTES : "Prep"]</b>"
+		if (hostedby)
+			features += "Host:<b>[hostedby]</b>"
+
+		game_state = (CONFIG_GET(number/extreme_popcap) && players >= CONFIG_GET(number/extreme_popcap)) //tells the hub if we are full
+
+		s += "[jointext(features, " ")]"
+
+		s += "<br><img src=\"https://tinyurl.com/48rb4zzy\">"
+
+	s += "</center>"
 
 	status = s
 
