@@ -77,6 +77,11 @@ GLOBAL_PROTECT(admin_verbs_admin)
 	/client/proc/toggle_combo_hud, // toggle display of the combination pizza antag and taco sci/med/eng hud
 	/client/proc/toggle_AI_interact, /*toggle admin ability to interact with machines as an AI*/
 	/client/proc/toggleprayers,
+	/client/proc/show_on_screen,
+	/client/proc/show_on_screen_local,
+	/client/proc/show_on_screen_target,
+	/client/proc/show_on_screen_target_force_del,
+	/client/proc/show_on_screen_global_force_del,
 	/client/proc/toggle_prayer_sound,
 	/client/proc/toggleadminhelpsound,
 	/client/proc/overmap_datum_token_manager,
@@ -242,6 +247,11 @@ GLOBAL_LIST_INIT(admin_verbs_hideable, list(
 	/client/proc/admin_initiate_jump,
 	/client/proc/admin_cancel_jump,
 	/client/proc/cmd_admin_direct_narrate,
+	/client/proc/show_on_screen,
+	/client/proc/show_on_screen_local,
+	/client/proc/show_on_screen_target,
+	/client/proc/show_on_screen_target_force_del,
+	/client/proc/show_on_screen_global_force_del,
 	/client/proc/cmd_admin_world_narrate,
 	/client/proc/cmd_admin_local_narrate,
 	/client/proc/play_local_sound,
