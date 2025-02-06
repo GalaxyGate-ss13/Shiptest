@@ -967,7 +967,6 @@
 	if(distant_source)
 		for(var/mob/target_eardrums in range(sound_range, distant_source))
 			if(target_eardrums && target_eardrums.client)
-				var/dist = get_dist(target_eardrums.loc, distant_source.loc)
 				var/vol = clamp(50, 10, 50) //Every tile decreases sound volume by 3
 				if(target_eardrums.client.prefs.toggles & SOUND_SHIP_AMBIENCE)
 					target_eardrums.playsound_local(distant_source, sound, vol)
