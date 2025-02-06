@@ -195,6 +195,10 @@
 /datum/overmap/ship/controlled/complete_undock()
 	shuttle_port.initiate_docking(shuttle_port.assigned_transit)
 	log_shuttle("[src] [REF(src)] COMPLETE UNDOCK: FINISHED UNDOCK FROM [docked_to]")
+	var/list/sounds = flist("sound/transit/")
+	if(sounds.len)
+		var/S = pick(sounds)
+		shuttle_port.play_local_sound(shuttle_port.assigned_transit,"sound/transit/[S]")
 	return ..()
 
 /datum/overmap/ship/controlled/pre_docked(datum/overmap/ship/controlled/dock_requester)
