@@ -27,10 +27,9 @@
 /datum/buildmode_mode/shoot/handle_click(client/target_client, params, obj/object)
 	var/list/modifiers = params2list(params)
 	var/left_click = LAZYACCESS(modifiers, LEFT_CLICK)
-	var/alt_click = LAZYACCESS(modifiers, ALT_CLICK)
+	// var/alt_click = LAZYACCESS(modifiers, ALT_CLICK)
 
-	if(left_click && alt_click)
-		to_chat(target_client, "<span class='warning'>Changed Burst mode to [burst_mode].</span>")
+
 	else if(left_click)
 		if(ispath(projholder,/obj/item/ammo_casing))
 			var/obj/item/ammo_casing/proj = new projholder
