@@ -35,5 +35,5 @@
 			var/obj/item/ammo_casing/proj = new projholder
 			proj.fire_casing(object, usr, params)
 			log_admin("Shoot Mode: [key_name(target_client)] shoot [projholder] in [AREACOORD(object)] to [projholder]")
-		else
-			to_chat(target_client, "<span class='warning'>Select object type first.</span>")
+	else
+		to_chat(target_client, "<span class='warning'>Select object type first.</span>")
