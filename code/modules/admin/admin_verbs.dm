@@ -78,6 +78,10 @@ GLOBAL_PROTECT(admin_verbs_admin)
 	/client/proc/toggle_AI_interact, /*toggle admin ability to interact with machines as an AI*/
 	/client/proc/toggleprayers,
 	/client/proc/show_on_screen,
+	/client/proc/show_on_screen_local,
+	/client/proc/show_on_screen_target,
+	/client/proc/show_on_screen_target_force_del,
+	/client/proc/show_on_screen_global_force_del,
 	/client/proc/toggle_prayer_sound,
 	/client/proc/toggleadminhelpsound,
 	/client/proc/overmap_datum_token_manager,
