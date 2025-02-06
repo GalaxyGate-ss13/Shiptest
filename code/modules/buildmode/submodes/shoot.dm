@@ -30,7 +30,6 @@
 	var/alt_click = LAZYACCESS(modifiers, ALT_CLICK)
 
 	if(left_click && alt_click)
-		burst_mode = !burst_mode
 		to_chat(target_client, "<span class='warning'>Changed Burst mode to [burst_mode].</span>")
 	else if(left_click)
 		if(ispath(projholder,/obj/item/ammo_casing))
