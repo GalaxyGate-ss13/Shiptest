@@ -6,7 +6,6 @@
 	to_chat(target_client, span_purple(boxed_message(
 		"[span_bold("Set ammo casing type")] -> Right Mouse Button on buildmode button\n\
 		[span_bold("Shoot projectile")] -> Left Mouse Button on turf\n\
-		[span_bold("Shoot projectile")] ->  Left Mouse Button + Alt to switch burst mode\n\
 		\n\
 		Use mouse to shoot."))
 	)
