@@ -30,7 +30,7 @@
 	// var/alt_click = LAZYACCESS(modifiers, ALT_CLICK)
 
 
-	else if(left_click)
+	if(left_click)
 		if(ispath(projholder,/obj/item/ammo_casing))
 			var/obj/item/ammo_casing/proj = new projholder
 			proj.fire_casing(object, usr, params)
