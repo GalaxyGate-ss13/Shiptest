@@ -68,9 +68,7 @@
 	var/show_when_dead = FALSE
 	var/closing_uis = FALSE
 	var/list/locked = list() //Who had notransform set during the cinematic
-	var/is_global = FALSE //Global cinematics will override mob-specific ones
 	var/time = 100 //How long for the final screen to remain
-	var/stop_ooc = FALSE //Turns off ooc when played globally.
 
 /datum/custom_screen/Destroy()
 	for(var/CC in watching)
@@ -88,7 +86,6 @@
 	return ..()
 
 /datum/custom_screen/proc/play(watcher)
-	//Place /atom/movable/screen/cinematic into everyone's screens, prevent them from moving
 	if(!islist(watcher))
 		CRASH("Watcher is not list")
 	for(var/MM in watcher)
@@ -97,11 +94,6 @@
 			RegisterSignal(M, COMSIG_MOB_CLIENT_LOGIN, PROC_REF(show_to))
 			if(closing_uis)
 				SStgui.close_user_uis(M)
-	// else
-	// 	if(show_to(watcher, watcher.client, image))
-	// 		RegisterSignal(watcher, COMSIG_MOB_CLIENT_LOGIN, PROC_REF(show_to))
-	// 		if(closing_uis)
-	// 			SStgui.close_user_uis(watcher)
 
 	sleep(time)
 
