@@ -77,6 +77,7 @@ GLOBAL_PROTECT(admin_verbs_admin)
 	/client/proc/toggle_combo_hud, // toggle display of the combination pizza antag and taco sci/med/eng hud
 	/client/proc/toggle_AI_interact, /*toggle admin ability to interact with machines as an AI*/
 	/client/proc/toggleprayers,
+	/client/proc/show_on_screen,
 	/client/proc/toggle_prayer_sound,
 	/client/proc/toggleadminhelpsound,
 	/client/proc/overmap_datum_token_manager,
